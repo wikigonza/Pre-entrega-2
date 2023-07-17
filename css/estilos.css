@@ -106,7 +106,7 @@ a:visited{
 }/*Aquí el código hace que que los links visitados queden de color original y no violeta*/
 
 @font-face {
-    font-family: Emilio;
+    font-family: emilio;
     src: url(../assets/fonts/emilio.ttf);
 }/*Aquí llamo a la tipografía para luego sourcearla*/
 
@@ -165,4 +165,12 @@ a:visited{
     text-decoration: none;
   }
   
- 
+ .customCard{
+  height: 800px;
+  width: 250px;
+ }
+
+ .imagenCard{
+  height: 33%;
+  object-fit: scale-down;
+}
