@@ -13,26 +13,29 @@
 
 a{color: aquamarine;}
 
-.contenedor{
-    position: relative;
-    text-align: center;
-    color: aquamarine;
+.contenedor {
+  position: relative;
+  text-align: center;
+  color: aquamarine;
 }
 
+.textoSobreImagen {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  font-family: Ovo-Regular;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
 .sticky{
     position: fixed;
   top: 20;
   width: 100%;
   background-color: #0d01013c; /* Add desired background color */
   z-index: 100; /* Ensure the header appears above other elements */
-}
-
-.textoSobreImagen{
-    position: inherit;
-    bottom: 700px;
-    left: 50px;
-    font-family: Ovo-Regular;
-    font-size: 55px;
 }
 
 /*Aquí creo el formulario y los estilos del mismo*/
@@ -174,3 +177,4 @@ a:visited{
   height: 33%;
   object-fit: scale-down;
 }
+
